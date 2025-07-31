@@ -209,7 +209,7 @@
 
     <input type="radio" id="q6c" name="q6">
     <label class="tab-label" for="q6c">c)</label>
-    <div class="tab-content">Find all .conf files under /etc directory. long list these files  and copy them into ~/first_eval.txt.</div>
+    <div class="tab-content">Find all .conf files under /etc directory and copy these files inside ~/database directory.</div>
 
     <input type="radio" id="q6d" name="q6">
     <label class="tab-label" for="q6d">d)</label>
