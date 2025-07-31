@@ -59,7 +59,7 @@ Read instructions carefully store information in a file mention in the question 
   
   b)	Inside the dev directory, create an empty file named new-file.txt. Change its permissions like allow owner to execute, group should be able to write, and others have no access.
   
-  c)	In the prod directory, create a file named prod-file1. Change its ownership so the owner is new-user and the group is admin.
+  c)	In the prod directory, create a file named prod-file1. Change its ownership so the owner is new-user and the group is admins.
   
   d)	Inside the test directory, create two subdirectories: test-dir1 and test-dir2. Change the ownership of the test directory and all its contents so the owner is new-user and the group is students.
   
