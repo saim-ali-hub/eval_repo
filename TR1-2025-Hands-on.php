@@ -1,83 +1,5 @@
 <?php
-echo <<<HTML
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>TECHNICAL ROUND 1 - 2025 (Hands_on)</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f2f4f8;
-      margin: 0;
-      padding: 20px;
-      color: #333;
-    }
-    h1 {
-      text-align: center;
-      color: #2c3e50;
-    }
-    .section {
-      background: #fff;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      padding: 20px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .section h2 {
-      margin: 0 0 10px;
-      color: #1a237e;
-    }
-    .tabs {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 10px;
-    }
-    .tab-label {
-      padding: 10px 20px;
-      cursor: pointer;
-      background: #e3e7f1;
-      margin-right: 5px;
-      border-radius: 4px 4px 0 0;
-      border: 1px solid #c5cae9;
-      font-weight: bold;
-    }
-    .tab-label:hover {
-      background: #d1d9ec;
-    }
-    .tab-content {
-      display: none;
-      padding: 15px;
-      border: 1px solid #c5cae9;
-      border-top: none;
-      background: #fafbff;
-      border-radius: 0 0 4px 4px;
-      animation: fadeIn 0.3s ease-in-out;
-    }
-    input[type="radio"] {
-      display: none;
-    }
-    input[type="radio"]:checked + label {
-      background: #3949ab;
-      color: white;
-    }
-    input[type="radio"]:checked + label + .tab-content {
-      display: block;
-    }
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-  </style>
-</head>
-<body>
-
-<h1>TECHNICAL ROUND 1 - 2025 (Hands_on)</h1>
-
-<p style="text-align:center; margin-bottom: 40px;"><strong>Read instructions carefully. Store information in the mentioned files unless otherwise stated.</strong></p>
-HTML;
-
-// Questions Array
+// Question data array
 $questions = [
   "Collect System Information and Store in ~/eval_info.txt" => [
     "Retrieve the number of CPUs attached to your machine, along with the make and model of the CPU, and redirect the output to the file above.",
@@ -122,23 +44,94 @@ $questions = [
     "Locate a file named messages under the /var directory and append its details to ~/eval_info.txt."
   ]
 ];
+?>
 
-// Render HTML for each section with tabs
-$qCount = 1;
-foreach ($questions as $title => $parts) {
-  echo "<div class='section'>";
-  echo "<h2>Q{$qCount}. $title</h2>";
-  echo "<div class='tabs'>";
-  
-  foreach ($parts as $index => $text) {
-    $id = "q{$qCount}_".chr(97 + $index);
-    echo "<input type='radio' id='$id' name='tabs{$qCount}' ".($index === 0 ? "checked" : "").">";
-    echo "<label class='tab-label' for='$id'>".chr(97 + $index) .")</label>";
-    echo "<div class='tab-content'>$text</div>";
-  }
-  
-  echo "</div></div>";
-  $qCount++;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TECHNICAL ROUND 1 - 2025 (Hands_on)</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f6f8;
+      padding: 20px;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .section {
+      background-color: #fff;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      margin-top: 0;
+      color: #1a237e;
+    }
+    .tabs {
+      margin-top: 10px;
+    }
+    .tabs input[type="radio"] {
+      display: none;
+    }
+    .tab-label {
+      padding: 10px 15px;
+      background: #e3e7f1;
+      margin-right: 5px;
+      border-radius: 4px 4px 0 0;
+      display: inline-block;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .tab-label:hover {
+      background: #cdd6f3;
+    }
+    .tab-content {
+      display: none;
+      border: 1px solid #c5cae9;
+      border-top: none;
+      background: #fafbff;
+      padding: 15px;
+      border-radius: 0 0 4px 4px;
+    }
+    input[type="radio"]:checked + label {
+      background-color: #3949ab;
+      color: #fff;
+    }
+    input[type="radio"]:checked + label + .tab-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<h1>TECHNICAL ROUND 1 - 2025 (Hands_on)</h1>
+<p style="text-align: center;"><strong>Read instructions carefully. Store information in the mentioned files unless otherwise specified.</strong></p>
+
+<?php
+$questionNumber = 1;
+foreach ($questions as $mainQuestion => $parts) {
+    echo "<div class='section'>";
+    echo "<h2>Q$questionNumber. $mainQuestion</h2>";
+    echo "<div class='tabs'>";
+    foreach ($parts as $index => $text) {
+        $id = "q{$questionNumber}_".chr(97 + $index);
+        $name = "tabs{$questionNumber}";
+        $label = chr(97 + $index) . ")";
+        $checked = ($index === 0) ? "checked" : "";
+        echo "<input type='radio' id='$id' name='$name' $checked>";
+        echo "<label class='tab-label' for='$id'>$label</label>";
+        echo "<div class='tab-content'>$text</div>";
+    }
+    echo "</div></div>";
+    $questionNumber++;
 }
+?>
 
-echo "</body></html>";
+</body>
+</html>
