@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Technical Round - 1: Linux Interview Questions</title>
+    <title>Technical Screening Round - 1: Linux Interview Questions</title>
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
@@ -30,7 +30,7 @@
 </head>
 <body>
 
-    <h1>Technical Round - 1</h1>
+    <h1>Technical Screening Round - 1</h1>
 
     <section>
         <h2>A. Linux General Questions</h2>
