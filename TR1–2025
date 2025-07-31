@@ -71,7 +71,7 @@ Read instructions carefully store information in a file mention in the question 
   
   b)	Find all the files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.
   
-  c)	Find all .conf files under /etc directory. long list these files  and copy them into ~/first_eval.txt.
+  c)	Find all .conf files under /etc directory and copy these files inside ~/database directory.
   
   d)	Your manager needs a list of all .py files under the /opt directory. Use long listing and redirect the output to ~/first_eval.txt.
   
