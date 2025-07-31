@@ -201,15 +201,15 @@
   <div class="tabs">
     <input type="radio" id="q6a" name="q6" checked>
     <label class="tab-label" for="q6a">a)</label>
-    <div class="tab-content">Find all .txt files owned by your current user and store the list in ~/first_eval.txt.</div>
+    <div class="tab-content">Find all .txt files under your home directory, owned by your current user and store the list in ~/first_eval.txt.</div>
 
     <input type="radio" id="q6b" name="q6">
     <label class="tab-label" for="q6b">b)</label>
-    <div class="tab-content">Find all files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.</div>
+    <div class="tab-content">Find all the files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.</div>
 
     <input type="radio" id="q6c" name="q6">
     <label class="tab-label" for="q6c">c)</label>
-    <div class="tab-content">Find all .conf files under /etc and copy them into ~/first_eval.txt.</div>
+    <div class="tab-content">Find all .conf files under /etc directory. long list these files  and copy them into ~/first_eval.txt.</div>
 
     <input type="radio" id="q6d" name="q6">
     <label class="tab-label" for="q6d">d)</label>
@@ -217,7 +217,7 @@
 
     <input type="radio" id="q6e" name="q6">
     <label class="tab-label" for="q6e">e)</label>
-    <div class="tab-content">Locate a file named messages under the /var directory and append its details to ~/first_eval.txt.</div>
+    <div class="tab-content">Locate a file named messages under the /var directory and append its metadata to ~/first_eval.txt.</div>
   </div>
 </details>
 
