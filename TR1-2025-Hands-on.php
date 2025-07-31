@@ -205,7 +205,7 @@
 
     <input type="radio" id="q6b" name="q6">
     <label class="tab-label" for="q6b">b)</label>
-    <div class="tab-content">Find all .log files under /var/log, list them with ls -lh, and save the output to ~/log_files.</div>
+    <div class="tab-content">Find all files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.</div>
 
     <input type="radio" id="q6c" name="q6">
     <label class="tab-label" for="q6c">c)</label>
@@ -213,11 +213,11 @@
 
     <input type="radio" id="q6d" name="q6">
     <label class="tab-label" for="q6d">d)</label>
-    <div class="tab-content">Your manager needs a list of all .py files under the /opt directory. Use long listing and redirect the output to the same file.</div>
+    <div class="tab-content">Your manager needs a list of all .py files under the /opt directory. Use long listing and redirect the output to ~/first_eval.txt.</div>
 
     <input type="radio" id="q6e" name="q6">
     <label class="tab-label" for="q6e">e)</label>
-    <div class="tab-content">Locate a file named messages under the /var directory and append its details to ~/eval_info.txt.</div>
+    <div class="tab-content">Locate a file named messages under the /var directory and append its details to ~/first_eval.txt.</div>
   </div>
 </details>
 
