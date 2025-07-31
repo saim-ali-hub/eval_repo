@@ -67,14 +67,14 @@ Read instructions carefully store information in a file mention in the question 
 
 6. Find Command and File Management Tasks (~/first_eval.txt)
 
-  a)	Find all .txt files owned by your current user and store the list in ~/first_eval.txt.
+  a)	Find all .txt files under your home directory, owned by your current user and store the list in ~/first_eval.txt.
   
-  b)	Find all files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.
+  b)	Find all the files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.
   
-  c)	Find all .conf files under /etc and copy them into ~/first_eval.txt.
+  c)	Find all .conf files under /etc directory. long list these files  and copy them into ~/first_eval.txt.
   
   d)	Your manager needs a list of all .py files under the /opt directory. Use long listing and redirect the output to ~/first_eval.txt.
   
-  e)	Locate a file named messages under the /var directory and append its details to ~/first_eval.txt.
+  e)	Locate a file named messages under the /var directory and append its metadata to ~/first_eval.txt.
 
 
