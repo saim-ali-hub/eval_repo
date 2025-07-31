@@ -1,0 +1,106 @@
+<?php
+echo <<<HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TECHNICAL ROUND 1 - 2025 (Hands_on)</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f8f9fa; padding: 20px; }
+        h1 { color: #343a40; }
+        pre {
+            background: #ffffff;
+            padding: 15px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+<h1>TECHNICAL ROUND 1 - 2025 (Hands_on)</h1>
+<p><strong>Read instructions carefully. Store information in the file mentioned in the question if not otherwise specified.</strong></p>
+
+<pre>
+1. Collect System Information and Store in ~/eval_info.txt
+
+a) Retrieve the number of CPUs attached to your machine, along with the make and model of the CPU, and redirect the output to the file above.
+
+b) Your team lead urgently needs details about all attached devices and disk partitions. Append this information to the same file.
+
+c) Extract your default shell information from /etc/passwd and append the output to the above file.
+
+d) Append the last five lines of the /etc/group file to ~/eval_info.txt.
+
+e) Append the first three lines of /etc/resolv.conf to the same file.
+
+2. Perform the Following Tasks on Your Terminal
+
+a) Create a copy of /etc/passwd, preserving the timestamp, and save it as back-up-passwd in your home directory.
+
+b) Add the text "Hey! I am taking my first evaluation" to ~/info_file.txt.
+
+c) Create a symbolic (soft) link named ~/info_link.txt that points to ~/info_file.txt.
+
+d) Create a hard link named first_hard_link.txt that points to ~/info_file.txt.
+
+e) Count the number of lines in /etc/passwd and append the result to ~/info_file.txt without overwriting its existing content.
+
+3. User Login Issue – Investigation Report (~/server-info.txt)
+
+a) Check how long the system Linoop.ddns.net has been running, and store the output.
+
+b) Verify whether the testuser account exists using appropriate commands (without reading any file).
+
+c) Read the contents of /etc/resolv.conf and append them to ~/server-info.txt.
+
+d) Extract all lines containing the string root from /etc/passwd and store them in the same file.
+
+e) Identify how to extract both root and ssh patterns from /etc/passwd.
+
+4. Login in the linoop.ddns.net server. Get following information and store in ~/linoop_server.info
+
+a) Identify which user you are logged in as on the server.
+
+b) Use the appropriate command to get detailed information about the host.
+
+c) Retrieve the absolute path of your home directory.
+
+d) Check the OS release version of linoop.ddns.net
+
+e) Get the permissions of your home directory.
+
+5. Directory and File Permissions – Practice Tasks
+
+a) Create a nested directory structure: ~/prod/dev/test.
+
+b) Inside the dev directory, create an empty file named new-file.txt.
+   Change its permissions like: allow owner to execute, group should be able to write, and others have no access.
+
+c) In the prod directory, create a file named prod-file1.
+   Change its ownership so the owner is new-user and the group is admin.
+
+d) Inside the test directory, create two subdirectories: test-dir1 and test-dir2.
+   Change the ownership of the test directory and all its contents so the owner is new-user and the group is students.
+
+e) Create a directory structure: ~/database/users/data.
+   Verify it using the tree command, then delete the “users” directory.
+
+6. Find Command and File Management Tasks (~/first_eval.txt)
+
+a) Find all .txt files owned by your current user and store the list in ~/first_eval.txt.
+
+b) Find all .log files under /var/log, list them with ls -lh, and save the output to ~/log_files.
+
+c) Find all .conf files under /etc and copy them into ~/first_eval.txt.
+
+d) Your manager needs a list of all .py files under the /opt directory.
+   Use long listing and redirect the output to the same file.
+
+e) Locate a file named messages under the /var directory and append its details to ~/eval_info.txt.
+</pre>
+
+</body>
+</html>
+HTML;
