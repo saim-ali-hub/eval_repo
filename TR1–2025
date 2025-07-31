@@ -69,12 +69,12 @@ Read instructions carefully store information in a file mention in the question 
 
   a)	Find all .txt files owned by your current user and store the list in ~/first_eval.txt.
   
-  b)	Find all .log files under /var/log, list them with ls -lh, and save the output to ~/log_files.
+  b)	b)	Find all files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.
   
   c)	Find all .conf files under /etc and copy them into ~/first_eval.txt.
   
-  d)	Your manager needs a list of all .py files under the /opt directory. Use long listing and redirect the output to the same file.
+  d)	Your manager needs a list of all .py files under the /opt directory. Use long listing and redirect the output to ~/first_eval.txt.
   
-  e)	Locate a file named messages under the /var directory and append its details to ~/eval_info.txt.
+  e)	Locate a file named messages under the /var directory and append its details to ~/first_eval.txt.
 
 
