@@ -69,7 +69,7 @@ Read instructions carefully store information in a file mention in the question 
 
   a)	Find all .txt files owned by your current user and store the list in ~/first_eval.txt.
   
-  b)	b)	Find all files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.
+  b)	Find all files under /var/log directory, having size above 50M and save the output to ~/first_eval.txt.
   
   c)	Find all .conf files under /etc and copy them into ~/first_eval.txt.
   
