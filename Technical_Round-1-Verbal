@@ -1,0 +1,150 @@
+Technical Round - 1 
+
+A.	Linux General Questions:
+
+1)	What is difference between open source and close source operating system?  
+
+2)	What are different flavours/distros of Linux are you familiar with?
+
+3)	How would you check that a server is physical or virtual? 
+
+4)	What is the structure of Linux, or what are the core components of the Linux OS?
+
+5)	What is the difference between shell and Kernel?
+
+6)	How can we check the hostname?
+
+7)	What is the command to check the OS release?
+
+8)	How can you find out the kernel version of a Linux system?
+
+9)	What are binaries, and where are they stored?
+
+10)	What is the purpose of the /boot and /etc directories?
+
+11)	What does the /proc file system contain, and what is the size of this file system?
+
+12)	What is the basic difference between the /bin and /sbin directories?
+
+13)	Which file system contains system configuration files?
+
+14)	What does the /opt directory/file system contain?
+
+15)	What’s the purpose of uptime command?
+
+16)	Which is the command to list all logged-in users?
+
+17)	What does the pwd command used for?
+
+18)	How can we create a directory?
+
+19)	What does the -p flag mean in mkdir?
+
+20)	How can you list the directory tree structure?
+
+21)	How can we long list files and sort by time stamp?
+
+22)	Difference between “>” and echo “>>” sign.
+
+23)	How to list the metadata of a file or directory?
+
+24)	How can we copy a file or directory while preserving the time stamp?
+
+25)	How to read 2 different files and redirect the output into one larger file?
+
+26)	What is the head command? How many lines does it show by default?
+
+27)	What is tail command? How many lines does tail command show by default?
+
+28)	What is the difference between “/var/log/secure” and “/var/log/messages”?
+
+29)	How do you list the block devices?
+
+30)	What are the slowest and fastest components of the system?
+
+31)	List the last 15 messages from the file which contains authentication/security logs?
+
+
+B.	Grep & Find Command:
+
+32)	What is the grep command?
+
+33)	What is the basic difference between the "grep" and "find" commands?
+
+34)	How can I find the pattern/string "root" from the /etc/passwd file?
+
+35)	How would you get all the lines that do not containing “root” string from “/etc/passwd” file?
+
+36)	How can we obtain logs that pertain to "sshd" from the Security logs?
+
+37)	Which flag would you use to ignore case sensitivity while you grep a pattern?
+
+38)	Find all files under “/var/log/” that are older than 90 days and delete them.
+
+39)	Search “zero” byte files in /tmp directory, use appropriate command to delete these files?
+
+40)	How to search files created in last ten days in the current working directory and copy these files under /tmp directory?
+
+41)	Find all the files that are larger than 5 MB in your whole system.
+
+
+C.	Linux Permissions and Ownership:
+
+42)	What is the difference between chown and chmod commands?
+
+43)	Which command we use to change permissions of a file/directory?
+
+44)	What are different type of permission groups in linux? 
+
+45)	What are the different types of permissions in Linux?
+
+46)	What are the numeric values that the system assigns for read, write, and execute?
+
+47)	What are different ways to change the permissions of a file or directory?
+
+48)	What does chown -R do?
+
+49)	What is meant by chmod 777?
+
+50)	How to change the user owner of a file?
+
+51)	How can we modify the group on the file called "/etc/test" to be "devops"?
+
+52)	What is the importance of the chgrp command?
+
+
+D.	Vi Editor:
+
+53)	Which is your preferred editor?
+
+54)	What are the different modes of the vi/vim editor?
+
+55)	How to quit Vim without saving any changes?
+
+56)	How can you quit Vim while saving the changes you made?
+
+57)	Why do we use "!" in addition to ":w" or ":wq" to quit?
+
+58)	How would you move from the beginning of the line to the end of a line?
+
+59)	How can you move back from the end of a line to the beginning of the line?
+
+60)	How would you go to the last line of the file in vi or vim editor.
+
+61)	How would you go back to first line of the file in vi or vim editor.
+
+62)	How to switch to insert mode in Vi editor?
+
+E.	Link Management:
+
+63)	What are different types of links, you are familiar with?
+
+64)	What is difference between a hard link and a symbolic link?
+
+65)	What are symbolic link (symlink) or soft link and its purpose?
+
+66)	How can a symbolic link be removed?
+
+67)	How can a symbolic link be created? (Exact Syntax)
+
+68)	What is a hard link and how is it created?
