@@ -1,6 +1,6 @@
-TR1 – 2025
+PROTO-TR1–2025
 ==============================================================================================
-TECHNICAL SCREENING ROUND 1 - 2025
+PROTO TECHNICAL SCREENING ROUND 1 - 2025
 ==============================================================================================
 
 Read instructions carefully store information in a file mention in the question if otherwise not mentioned in the task.
@@ -11,7 +11,7 @@ Read instructions carefully store information in a file mention in the question 
    
    b)	Your team lead urgently needs details about all attached devices and disk partitions. Append this information to the same file.
   
-   c)	Extract your default shell information from /etc/passwd and append the output to the above file.
+   c)	Check the OS release version of linoop.ddns.net.
    
    d)	Append the last five lines of the /etc/group file to ~/eval_info.txt.
    
@@ -41,19 +41,7 @@ Read instructions carefully store information in a file mention in the question 
   
    e)	Identify how to extract both root and ssh patterns from /etc/passwd.
 
-4. Login in the linoop.ddns.net server. Get following information and store in  ~/linoop_server.info 
-
-   a)	Identify which user you are logged in as on the server.
-   
-   b)	Use the appropriate command to get detailed information about the host.
-   
-   c)	Retrieve the absolute path of your home directory.
-   
-   d)	Check the OS release version of linoop.ddns.net
-   
-   e)	Get the permissions of your home directory.
-
-5. Directory and File Permissions – Practice Tasks
+4. Directory and File Permissions – Practice Tasks
 
   a)	Create a nested directory structure: ~/prod/dev/test.
   
@@ -65,7 +53,7 @@ Read instructions carefully store information in a file mention in the question 
   
   e)	Create a directory structure: ~/database/users/data. Verify it using the tree command, then delete the “users” directory.
 
-6. Find Command and File Management Tasks (~/first_eval.txt)
+5. Find Command and File Management Tasks (~/first_eval.txt)
 
   a)	Find all .txt files under your home directory, owned by your current user and store the list in ~/first_eval.txt.
   
