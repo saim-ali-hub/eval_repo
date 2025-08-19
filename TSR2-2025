@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Screening Round 2 - 2025</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-black-800 leading-relaxed">
+  <div class="max-w-6xl mx-auto p-6">
+
+    <!-- Main Heading -->
+    <h1 class="text-4xl font-bold text-center text-blue-700 mb-10">
+      Technical Screening Round 2 - 2025
+    </h1>
+
+    <!-- Section A -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">A. User and Group Management</h2>
+    <ol class="list-decimal list-inside space-y-2">
+      <li>Which command is used to add a new user in Linux?</li>
+      <li>Can you explain the step-by-step process of creating a user manually in Linux?</li>
+      <li>Which system files are modified when a new user is created?</li>
+      <li>If you were to create a user manually on a local machine, in which file would you define the user?</li>
+      <li>What are the different fields present in the /etc/passwd file?</li>
+      <li>If you know the username, how would you retrieve the user’s UID from the command line?</li>
+      <li>What are the implications of assigning UID 0 to a user (e.g., marshal)?</li>
+      <li>What is the purpose of skeleton (/etc/skel) files in Linux?</li>
+      <li>How would you create a group named prod in Linux?</li>
+      <li>How would you add the user max to the prod group?</li>
+    </ol>
+
+    <!-- Section B -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">B. Tar Command</h2>
+    <ol class="list-decimal list-inside space-y-2" start="11">
+      <li>What is a tarball in Linux?</li>
+      <li>What is meant by archiving?</li>
+      <li>What is the general syntax of the tar command?</li>
+      <li>What are the four primary operating modes of the tar utility?</li>
+      <li>What does data compression mean?</li>
+      <li>Which command would you use to archive and compress the /data filesystem in a single step?</li>
+      <li>How would you extract a tarball into the same directory where it is stored?</li>
+      <li>How would you extract a tarball located in /mnt into the /tmp directory?</li>
+      <li>How can you add a new file to an existing tar archive?</li>
+      <li>Which command is used to list the contents of a tarball without extracting it?</li>
+      <li>How can you determine the type of a given file in Linux?</li>
+    </ol>
+
+    <!-- Section C -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">C. Package Management</h2>
+    <ol class="list-decimal list-inside space-y-2" start="22">
+      <li>What does RPM stand for in Linux?</li>
+      <li>Which rpm command is used to list all the packages installed on a system?</li>
+      <li>How can you count the total number of installed packages on a Linux system?</li>
+      <li>How would you verify if the httpd package is installed using the rpm command?</li>
+      <li>Which command is used to install a package using rpm?</li>
+      <li>How can you upgrade an existing package with rpm?</li>
+      <li>Which command allows you to remove a package using rpm?</li>
+      <li>How can you identify which package a particular file belongs to using rpm?</li>
+      <li>Which command lists the contents of an rpm package file?</li>
+      <li>What does YUM stand for?</li>
+      <li>What advantages does YUM provide over RPM?</li>
+      <li>What are some of the limitations or drawbacks of using YUM?</li>
+      <li>How can you download an RPM package using YUM without installing it?</li>
+      <li>Which command is used to install a package with YUM?</li>
+      <li>How do you update and remove packages using the YUM utility?</li>
+      <li>Which directory contains the YUM repository configuration files?</li>
+      <li>What is the main configuration file of YUM called?</li>
+      <li>How can you list all available repositories using the YUM command?</li>
+      <li>Where are YUM logs stored by default?</li>
+      <li>Which single command can be used to update the entire system with YUM?</li>
+      <li>Where does YUM store its cache, and how can you clean it?</li>
+    </ol>
+
+    <!-- Section D -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">D. Process Management</h2>
+    <ol class="list-decimal list-inside space-y-2" start="43">
+      <li>What is a process in Linux?</li>
+      <li>What are the different states of a Linux process?</li>
+      <li>What is a daemon process, and what role does it play in the system?</li>
+      <li>What is the purpose of the ps -aux command?</li>
+      <li>Which command can be used to list all active processes?</li>
+      <li>How can you display a process along with its child processes?</li>
+      <li>How can you send a process to the background?</li>
+      <li>Which command lists all background processes?</li>
+      <li>What is the difference between the SIGTERM and SIGKILL signals?</li>
+      <li>Which signal allows a process to continue running even after the shell exits?</li>
+      <li>What is a zombie (DEFUNCT) process in Linux?</li>
+      <li>How can you determine the total number of active processes on a system?</li>
+      <li>When gracefully terminating a process, which signal (e.g., -15) is invoked?</li>
+      <li>Which signal is commonly used to forcefully terminate a process?</li>
+      <li>What is the purpose of the pkill command?</li>
+      <li>What is the OOM (Out-of-Memory) Killer in Linux, and when is it triggered?</li>
+    </ol>
+
+    <!-- Section E -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">E. Service Management</h2>
+    <ol class="list-decimal list-inside space-y-2" start="59">
+      <li>Where are the startup scripts or unit files typically located in Linux?</li>
+      <li>Which command is commonly used for service management?</li>
+      <li>How can you list all services on a Linux system?</li>
+      <li>Which command is used to check the status of a service?</li>
+      <li>What are the different states a service can be in, and what do they represent?</li>
+      <li>How can you list all enabled services on a Linux system?</li>
+      <li>How can you verify whether a service is currently active or inactive?</li>
+      <li>What is the primary framework used to manage services in modern Linux systems?</li>
+      <li>How can you configure a service to start automatically at system boot?</li>
+      <li>How can you check if a service is enabled or disabled?</li>
+      <li>What is the difference between restarting a service and reloading it?</li>
+      <li>How does disabling a service differ from stopping a service?</li>
+      <li>Which command allows you to enable and start a service at the same time?</li>
+      <li>How can you add a port number to the firewall?</li>
+      <li>How can you add a service to the firewall?</li>
+      <li>What command is used to update or reload firewalld rules?</li>
+      <li>How can you list all ports that have been added to firewalld?</li>
+    </ol>
+
+    <!-- Section F -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">F. Networking</h2>
+    <ol class="list-decimal list-inside space-y-2" start="76">
+      <li>Which command-line utility is used to manage network connections in Linux-based operating systems?</li>
+      <li>How can you list the profiles of network interfaces using the nmcli command?</li>
+      <li>Which command is used to display the available network interfaces?</li>
+      <li>Which command allows you to create, modify, and delete connection profiles?</li>
+      <li>How would you determine which network interface is responsible for sending and receiving traffic outside the local network?</li>
+      <li>What is the role of a gateway in networking?</li>
+      <li>What is the purpose of a DNS server?</li>
+      <li>What is the function of a DHCP server?</li>
+      <li>What is the purpose of the ping command, and which protocol does it use?</li>
+      <li>Which TCP/IP configuration directives are required to set a static IP address?</li>
+      <li>What is a subnet mask, and why is it important?</li>
+      <li>What is meant by a forward DNS lookup?</li>
+      <li>What does a reverse DNS lookup indicate?</li>
+      <li>What is the significance of the loopback address in networking?</li>
+      <li>Which configuration file contains the network interface settings in Red Hat, CentOS, or Oracle Linux 7?</li>
+      <li>Which command is used to display the routing table in Linux?</li>
+      <li>Which file is used for DNS client configuration in Linux?</li>
+      <li>What is the function of the /etc/hosts file?</li>
+      <li>What is the difference between a switch and a router?</li>
+      <li>How can you check if a port is listening on a local server?</li>
+      <li>How can you check if a port is listening on a remote server?</li>
+      <li>Which command can be used to verify if a server’s network cable is connected?</li>
+      <li>What is the host-based firewall used in RHEL 6 and RHEL 7?</li>
+      <li>If you are able to ping within your network but not outside it, what troubleshooting steps would you take?</li>
+      <li>What general steps would you follow for network troubleshooting in Linux?</li>
+    </ol>
+
+    <!-- Section G -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">G. SCP Command</h2>
+    <ol class="list-decimal list-inside space-y-2" start="101">
+      <li>What is SCP, and what is its primary function?</li>
+      <li>Could you provide the fundamental syntax of the SCP command?</li>
+      <li>How to transfer directory with preserving time stamp using SCP command?</li>
+      <li>Why SCP is secure to transfers file across networks?</li>
+      <li>How to make sure during and after file transfer the file is not tempered?</li>
+      <li>Which communication port is typically associated with SCP?</li>
+      <li>What is difference between SCP and rsync?</li>
+    </ol>
+
+    <!-- Section H -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">H. Review-TSR1</h2>
+    <ol class="list-decimal list-inside space-y-2" start="108">
+      <li>Could you highlight the major differences between RHEL 6 (init) and RHEL 7 (systemd)?</li>
+      <li>Could you explain the difference between the "grep" and "find" commands?</li>
+      <li>What command identifies files modified in the last 20 minutes under the "/var/log/" directory?</li>
+      <li>How can you locate files created within the last ten days in the current working directory and copy them to the "/tmp" directory?</li>
+      <li>What is the command to change ownership and basic permissions on files and directories?</li>
+      <li>How do you extract all lines containing the words "ssh" or "root" from a file and store in /tmp/logs?</li>
+      <li>How can you monitor real-time updates in the /var/log/secure file?</li>
+      <li>What is the command to grep all lines containing "root," show 2 lines after each, and 2 lines before, from the "/etc/passwd" file?</li>
+      <li>How can you find all lines in the "/etc/passwd" file that do not contain the string "root"?</li>
+      <li>You intend to compress and archive the "/data" file system. Which command can you use to archive and compress "/data" in a single step?</li>
+      <li>How can you extract a file in /tmp directory while the tarball is stored in /mnt directory?</li>
+      <li>In a filesystem that's 100% full, how would you identify the files consuming the most space?</li>
+      <li>What are the numeric values assigned by the system for read, write, and execute permissions?</li>
+      <li>What is the purpose of the umask? What are the default umask values for the "root" user and a regular user?</li>
+      <li>While using the vi editor, if you wish to change "Rohit" to "sharma," how would you do that?</li>
+      <li>What is wheel group and how would you make the user "max" a part of the "wheel" group?</li>
+      <li>How can we elevate privilege of regular user?</li>
+      <li>What is difference between a hard link and a symbolic link?</li>
+    </ol>
+  </div>
+</body>
+</html>
