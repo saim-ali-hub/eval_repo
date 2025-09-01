@@ -157,8 +157,31 @@
     </ol>
 
     <!-- Section H -->
-    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">H. Review-TSR1</h2>
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">H. Secure Shell</h2>
     <ol class="list-decimal list-inside space-y-2" start="108">
+      <li><strong>What is the purpose of SSH (Secure Shell)?</strong></li>
+      <li><strong>Which package is required for SSH installation?</strong></li>
+      <li><strong>What is the configuration file for the SSH server?</strong></li>
+      <li><strong>Which configuration file is associated with the SSH client?</strong></li>
+      <li><strong>What steps can you take to ensure SSH remains persistent, active, and running?</strong></li>
+      <li><strong>How would you confirm whether the SSH server's port (sshd) is actively listening or not?</strong></li>
+      <li><strong>Which command would you use to display a list of all ESTABLISHED connections?</strong></li>
+      <li><strong>How can you retrieve a list of security logs relevant to SSH?</strong></li>
+      <li><strong>How would you list all system logs pertaining to SSH?</strong></li>
+      <li><strong>Which hidden directory contains files related to SSH authentication for a particular user?</strong></li>
+      <li><strong>What is the purpose of <code>known_hosts</code> and <code>authorized_keys</code> files?</strong></li>
+      <li><strong>How can we secure the system by disabling direct root logins through SSH?</strong></li>
+      <li><strong>What are the various tools you have utilized for remote access and data transfer?</strong></li>
+      <li><strong>You have received a support ticket indicating that a client is experiencing unresponsiveness from the server and is unable to establish an SSH connection. How would you approach troubleshooting this issue?</strong></li>
+      <li><strong>What is the significance of utilizing SSH key-based authentication?</strong></li>
+      <li><strong>If an attempt to SSH as the root user with the correct password proves unsuccessful, how would you go about diagnosing and resolving the problem?</strong></li>
+      <li><strong>Could you explain the process of modifying the SSHD port, and outline the steps to allow this new port through the <code>    firewalld</code>?</strong></li>
+      <li><strong>In the event that a service (specifically SSHD) fails to initiate, could you walk me through some of the preliminary troubleshooting steps?</strong></li>
+   </ol>
+
+   <!-- Section I -->
+    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">I. Review-TSR1</h2>
+    <ol class="list-decimal list-inside space-y-2" start="126">
       <li>Could you highlight the major differences between RHEL 6 (init) and RHEL 7 (systemd)?</li>
       <li>Could you explain the difference between the "grep" and "find" commands?</li>
       <li>What command identifies files modified in the last 20 minutes under the "/var/log/" directory?</li>
