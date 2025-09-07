@@ -193,7 +193,7 @@
       <li>Can you describe how RAID 10 works and its advantages?</li>
       <li>If cost is the primary concern, which RAID level would you recommend and why?</li>
       <li>Why is RAID 6 generally slower than RAID 5?</li>
-
+    </ol>
    
    <!-- Section J -->
     <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">I. Review-TSR1</h2>
