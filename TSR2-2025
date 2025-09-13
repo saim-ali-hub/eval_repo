@@ -179,73 +179,8 @@
       <li>In the event that a service (specifically SSHD) fails to initiate, could you walk me through some of the preliminary troubleshooting steps?</li>
    </ol>
   <!-- Section I -->
-   <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">I. RAID</h2>
-    <ol class="list-decimal list-inside space-y-2" start="126">
-      <li>Can you explain what RAID is and describe its primary benefits?</li>
-      <li>How does RAID differ from Logical Volume Management (LVM)?</li>
-      <li>Why are there multiple RAID levels, and what purpose does each serve?</li>
-      <li>What key factors should be considered when selecting a specific RAID level?</li>
-      <li>How does RAID 0 compare to RAID 1 in terms of performance and redundancy?</li>
-      <li>What are the main differences between RAID 5 and RAID 6?</li>
-      <li>What role does parity play in RAID, and what are its advantages?</li>
-      <li>In RAID 6, how many disks can fail without causing data loss?</li>
-      <li>What is the minimum number of disks required to configure RAID 5 and RAID 6?</li>
-      <li>Can you describe how RAID 10 works and its advantages?</li>
-      <li>If cost is the primary concern, which RAID level would you recommend and why?</li>
-      <li>Why is RAID 6 generally slower than RAID 5?</li>
-    </ol>
-   
-   <!-- Section J -->
-    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">J. Partition Disk</h2>
-    <ol class="list-decimal list-inside space-y-2" start="139">
-      <li>Which disk partitioning utilities are you familiar with?</li>
-      <li>How can you list the disks and partitions attached to a system?</li>
-      <li>What is the purpose of the <code>fdisk -l</code> command?</li>
-      <li>How can you manually update the kernel partition table?</li>
-      <li>Why do we need swap space?</li>
-      <li>How can you check swap space utilization?</li>
-      <li>Is swapping considered a good or a bad practice? Why?</li>
-      <li>Which commands are used to create and activate swap space?</li>
-      <li>What is the difference between paging in and paging out?</li>
-      <li>How would you arrange newly assigned LUNs in your environment and walk me through the steps to partition them?</li>
-      <li>What is the fundamental difference between <code>fdisk</code> and <code>gdisk</code>?</li>
-      <li>Which partitioning schemes are supported by <code>fdisk</code> and <code>gdisk</code>?</li>
-      <li>What key points should be considered when choosing between MBR and GPT partition tables?</li>
-      <li>What is the difference between a primary and a logical partition?</li>
-      <li>Why do we mount a file system?</li>
-      <li>What is the <code>/etc/fstab</code> file in Linux?</li>
-      <li>How can you list all current mount points?</li>
-      <li>What is a UUID, and which command can you use to retrieve it?</li>
-      <li>What command can be used to scan for newly attached block devices?</li>
-      <li>The storage team has allocated a 100 GB LUN. You need to create a standard partition, format it with the XFS file system, and mount it on <code>/app</code>. Can you walk me through the process?</li>
-      <li>What are the main differences between Ext4 and XFS file systems?</li>
-      <li>Can you explain the concept of journaling in file systems?</li>
-      <li>What are the consequences of errors in the <code>/etc/fstab</code> file?</li>
-      <li>What command can you use to check the total number of available and used inodes on the <code>/</code> file system?</li>
-      <li>What happens if the maximum number of inodes is exhausted, and how can you resolve this issue?</li>   
-  </ol>
-<!-- Section K -->
-    <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">K. LVM (Logical Volume Manager)</h2>
-    <ol class="list-decimal list-inside space-y-2" start="164">
-      <li>What is LVM?</li>
-      <li>What is the device mapper in Linux?</li>
-      <li>What are the advantages of using LVM?</li>
-      <li>What are the three main stages of LVM, and which commands are used in each stage?</li>
-      <li>What is a physical extent in LVM?</li>
-      <li>What is a volume group, and how can you list existing volume groups?</li>
-      <li>How do you format a logical volume with the XFS file system?</li>
-      <li>How do you mount a logical volume named <code>LV1</code> on the <code>/mount_lv1</code> mount point?</li>
-      <li>How do you extend a logical volume and its associated volume group?</li>
-      <li>What is the command to resize an XFS file system?</li>
-      <li>What is the command to resize an Ext4 file system?</li>
-      <li>Can the XFS file system be shrunk? Why or why not?</li>
-      <li>If your storage is full and you add a new disk, what steps would you follow to extend an existing logical volume?</li>
-      <li>In the <code>lvextend</code> command, what is the difference between the <code>-L</code> and <code>-l</code> options?</li>
-      <li>How can you list mounted file systems? Provide at least two commands.</li>
-    </ol>
-<!-- Section L -->
     <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">L. Review-TSR1</h2>
-    <ol class="list-decimal list-inside space-y-2" start="179">
+    <ol class="list-decimal list-inside space-y-2" start="126">
       <li>Could you highlight the major differences between RHEL 6 (init) and RHEL 7 (systemd)?</li>
       <li>Could you explain the difference between the "grep" and "find" commands?</li>
       <li>What command identifies files modified in the last 20 minutes under the "/var/log/" directory?</li>
