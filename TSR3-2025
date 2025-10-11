@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Technical Screening Round 3 - 2025</title>
   <script src="https://cdn.tailwindcss.com"></script>
+<style>
+  ol li {
+    font-weight: bold;
+  }
+</style>
 </head>
 <body class="bg-gray-50 text-black-800 leading-relaxed">
   <div class="max-w-6xl mx-auto p-6">
@@ -127,8 +132,35 @@
 </ol>
 
 <!-- Section E -->
-<h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">E. TSR 1 - 2025 & TSR 2 - 2025 Stuff </h2>
+<h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">E. NFS and AutoFS</h2>
 <ol class="list-decimal list-inside space-y-2" start="93">
+  <li>What is NFS (Network File System), and in what real-world scenarios would your organization use it?</li>
+  <li>Which NFS daemons are required on the server and client sides, and what are their roles?</li>
+  <li>Which ports must be opened in the firewall on the NFS server to enable proper communication?</li>
+  <li>Which configuration file is used to define NFS exports, and what is the correct syntax used within this file?</li>
+  <li>Which command would you use to export the <code>/data</code> filesystem to an NFS client?</li>
+  <li>How can you verify whether the NFS service is running on a server?</li>
+  <li>Which command is used on the client side to list available NFS exports from a server?</li>
+  <li>How do you mount an exported NFS filesystem on a client system?</li>
+  <li>If a user is unable to access an NFS-mounted filesystem, what could be the possible causes of this issue?</li>
+  <li>What is the purpose of the <code>root_squash</code> option in the <code>/etc/exports</code> file?</li>
+  <li>What are the implications of using the <code>no_root_squash</code> option in the <code>/etc/exports</code> file?</li>
+  <li>How can you forcefully unmount a hung NFS share on a client system?</li>
+  <li>What is AutoFS, and how does it enhance NFS performance and usability?</li>
+  <li>How does AutoFS differ from a manually configured NFS mount in <code>/etc/fstab</code>?</li>
+  <li>Which main configuration files are used by AutoFS in Linux, and what are their purposes?</li>
+  <li>What is the function of the <code>/etc/auto.master</code> file? Can you explain its structure?</li>
+  <li>What is the role of the map files (e.g., <code>/etc/auto.home</code> or custom map files) in AutoFS configuration?</li>
+  <li>How do you enable and start the AutoFS service on a Linux system?</li>
+  <li>Which command is used to verify that the AutoFS service is running correctly?</li>
+  <li>How can you test if AutoFS is automatically mounting NFS shares as expected?</li>
+  <li>What happens when an AutoFS-mounted directory is not accessed for a specific time period?</li>
+  <li>What are the advantages of using AutoFS for mounting NFS shares compared to static mounting through <code>/etc/fstab</code>?</li>
+</ol>
+
+<!-- Section F -->
+<h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">F. TSR 1 - 2025 & TSR 2 - 2025 Stuff </h2>
+<ol class="list-decimal list-inside space-y-2" start="115">
   <li>What are the distinctions between hard links and symbolic links?</li>
   <li>What is SCP, and what is its primary purpose?</li>
   <li>Which port is commonly associated with SCP?</li>
