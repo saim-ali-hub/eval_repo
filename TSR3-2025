@@ -137,19 +137,16 @@
   <li>Which port is commonly associated with SCP?</li>
   <li>What is the difference between FTP and SFTP?</li>
   <li>What are the various states a Linux process can assume?</li>
-  <li>What is the purpose of the <code>ps -aux</code> command?</li>
-  <li>What command lists all active processes?</li>
+  <li>What is the purpose of the ps -aux command?</li>
+  <li>Which command lists all active processes?</li>
   <li>What command displays a process and its child processes?</li>
   <li>What is the difference between the SIGTERM and SIGKILL signals?</li>
   <li>Which signal enables a process to continue after the shell exits?</li>
   <li>What is a zombie process, and how does it occur?</li>
-  <li>What is the purpose of the <code>pkill</code> command?</li>
+  <li>What is the purpose of the pkill command?</li>
   <li>What is the OOM Killer, and what is its purpose?</li>
-  <li>How can you determine if a service is currently active?</li>
-  <li>How can a service be configured to start persistently during boot?</li>
   <li>What is the difference between restarting and reloading a service?</li>
   <li>What differentiates disabling a service from stopping it?</li>
-  <li>How can you prevent a service from starting at boot?</li>
   <li>How can you enable and start a service at the same time?</li>
   <li>How would you identify which network interface handles outbound traffic?</li>
   <li>What is the purpose of the ping command, and which protocol does it use?</li>
@@ -166,24 +163,15 @@
   <li>How would you troubleshoot if SSH access fails?</li>
   <li>What advantages does YUM have over RPM?</li>
   <li>How do you harden a Linux server?</li>
-  <li>What is the difference between <code>gdisk</code> and <code>fdisk</code> utilities?</li>
+  <li>What is the difference between gdisk and fdisk utilities?</li>
   <li>How would you create a logical volume from a 100 GB LUN, format it with XFS, and mount it on <code>/app</code>?</li>
   <li>What are the differences between Ext4 and XFS file systems?</li>
   <li>Why might <code>du -h</code> and <code>df -h</code> show different results?</li>
-  <li>If both show the same results but writing fails, what could be the issue?</li>
-  <li>If there’s 60% free space but no write access, what could cause it?</li>
+  <li>If both du -h and df -h show the same results but you cannot write to the filesystem, what could be the issue?</li>
+  <li>If there’s still 60% free space but no write access, what could cause it?</li>
   <li>If 25GB of files are deleted but space isn’t freed, what’s the likely reason?</li>
   <li>What command displays total and used inodes for the root filesystem?</li>
   <li>What happens if all inodes are used, and how can you fix it?</li>
-  <li>What are the advantages of LVM?</li>
-  <li>How do you extend a logical volume after adding a new disk?</li>
-  <li>Command to resize an XFS filesystem?</li>
-  <li>Command to resize an Ext4 filesystem?</li>
-  <li>What is the difference between <code>-L</code> and <code>-l</code> in <code>lvextend</code>?</li>
-  <li>If a user can’t access an NFS share, what could be the causes?</li>
-  <li>What is the <code>root_squash</code> option?</li>
-  <li>What happens if <code>no_root_squash</code> is used?</li>
-  <li>How do you force unmount a hung NFS share?</li>
   <li>What’s the difference between <code>grep</code> and <code>find</code>?</li>
   <li>How would you check if a cable is connected to a NIC?</li>
   <li>How would you troubleshoot a remote SSH connection issue?</li>
