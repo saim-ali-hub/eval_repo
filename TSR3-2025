@@ -113,7 +113,7 @@
 </ol>
 
 <!-- Section E -->
-<h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">E. NFS and AutoFS</h2>
+<h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">E. NFS (Network File System)</h2>
 <ol class="list-decimal list-inside space-y-2" start="74">
   <li>What is NFS (Network File System), and in what real-world scenarios would your organization use it?</li>
   <li>Which NFS daemons are required on the server and client sides, and what are their roles?</li>
