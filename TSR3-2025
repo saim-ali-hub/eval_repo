@@ -156,7 +156,6 @@
   <li>How would you check if a port is open on a remote server?</li>
   <li>What steps would you take for network troubleshooting?</li>
   <li>What is SSH, and what is its purpose?</li>
-  <li>What is the SSH server configuration file?</li>
   <li>How can you retrieve SSH-related logs?</li>
   <li>Where are SSH keys stored for passwordless authentication?</li>
   <li>Why is SSH key-based authentication important?</li>
