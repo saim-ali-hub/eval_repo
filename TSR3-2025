@@ -57,10 +57,8 @@
   <li>What is the <code>/etc/fstab</code> file in Linux?</li>
   <li>How can you list current mount points?</li>
   <li>What is a UUID, and which command retrieves it?</li>
-  <li>What command scans for newly attached block devices?</li>
   <li>The storage team has allocated a 100 GB LUN. How would you make it available as a standard partition with the XFS file system mounted on <code>/app</code>?</li>
   <li>What are the main differences between Ext4 and XFS file systems?</li>
-  <li>Could you explain the concept of journaling in file systems?</li>
   <li>What are the consequences of errors in the <code>/etc/fstab</code> file?</li>
   <li>What command shows total available and used inodes for the <code>/</code> file system?</li>
   <li>What happens if the maximum number of inodes is reached, and how can you resolve it?</li>
@@ -68,7 +66,7 @@
 
 <!-- Section C -->
 <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">C. LVM (Logical Volume Manager)</h2>
-<ol class="list-decimal list-inside space-y-2" start="38">
+<ol class="list-decimal list-inside space-y-2" start="36">
   <li>What is LVM?</li>
   <li>What is a device mapper?</li>
   <li>What are the advantages of using LVM?</li>
@@ -88,29 +86,19 @@
 
 <!-- Section D -->
 <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">D. Ansible</h2>
-<ol class="list-decimal list-inside space-y-2" start="53">
+<ol class="list-decimal list-inside space-y-2" start="51">
   <li>What is Ansible, and how does it work?</li>
   <li>What is your experience with Ansible?</li>
   <li>How does the Ansible control node manage the managed nodes?</li>
   <li>How can you check the Ansible version?</li>
   <li>How can we list all the hosts Ansible manages?</li>
   <li>Can you describe idempotence?</li>
-  <li>What kinds of playbooks have you written?</li>
   <li>What modules have you worked with? (At least 10)</li>
   <li>What is the path to the default Ansible configuration file?</li>
-  <li>Why is Ansible better than SCP?</li>
-  <li>What are Ansible plugins?</li>
-  <li>Can you explain the difference between static and dynamic inventory in Ansible Tower?</li>
-  <li>What is Ansible Galaxy?</li>
-  <li>Can you define roles in Ansible?</li>
-  <li>What is the difference between playbooks and roles in Ansible?</li>
-  <li>How do you call a custom inventory file when executing a playbook?</li>
   <li>What is an ad-hoc command, and why is it useful?</li>
   <li>Can you explain tags in Ansible?</li>
   <li>How can you include variables from an external file at the play level?</li>
   <li>How can you include variables from an external file at the task level?</li>
-  <li>What do you know about variable precedence in Ansible?</li>
-  <li>Have you created a playbook to create a logical volume? Explain it.</li>
   <li>Which module do you use to store task output in a variable?</li>
   <li>What is the difference between notify and register?</li>
   <li>Which module prints specific parts of a registered variable’s output?</li>
@@ -118,22 +106,15 @@
   <li>How can you execute a playbook without making any changes?</li>
   <li>How can you create multiple users without duplicating tasks?</li>
   <li>What is the difference between the shell and command modules?</li>
-  <li>Which attribute allows copying files recursively from local to remote?</li>
-  <li>How do you copy a file from one location to another within the same managed node?</li>
-  <li>How do you keep passwords or files hidden in Ansible?</li>
-  <li>How can you run a playbook only under specific conditions?</li>
-  <li>What are the key differences between the copy and template modules?</li>
   <li>Which module would you use to add a line to a file?</li>
   <li>Which attribute would you use to replace a line in a file using <code>lineinfile</code>?</li>
   <li>What are handlers in Ansible playbooks?</li>
   <li>What is a loop in Ansible playbooks?</li>
-  <li>If you want to run a playbook on 1,000 servers, how would you speed it up?</li>
-  <li>Can you give examples of two conditionals used in Ansible?</li>
 </ol>
 
 <!-- Section E -->
 <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">E. NFS and AutoFS</h2>
-<ol class="list-decimal list-inside space-y-2" start="93">
+<ol class="list-decimal list-inside space-y-2" start="74">
   <li>What is NFS (Network File System), and in what real-world scenarios would your organization use it?</li>
   <li>Which NFS daemons are required on the server and client sides, and what are their roles?</li>
   <li>Which ports must be opened in the firewall on the NFS server to enable proper communication?</li>
@@ -146,21 +127,11 @@
   <li>What is the purpose of the <code>root_squash</code> option in the <code>/etc/exports</code> file?</li>
   <li>What are the implications of using the <code>no_root_squash</code> option in the <code>/etc/exports</code> file?</li>
   <li>How can you forcefully unmount a hung NFS share on a client system?</li>
-  <li>What is AutoFS, and how does it enhance NFS performance and usability?</li>
-  <li>How does AutoFS differ from a manually configured NFS mount in <code>/etc/fstab</code>?</li>
-  <li>Which main configuration files are used by AutoFS in Linux, and what are their purposes?</li>
-  <li>What is the function of the <code>/etc/auto.master</code> file? Can you explain its structure?</li>
-  <li>What is the role of the map files (e.g., <code>/etc/auto.home</code> or custom map files) in AutoFS configuration?</li>
-  <li>How do you enable and start the AutoFS service on a Linux system?</li>
-  <li>Which command is used to verify that the AutoFS service is running correctly?</li>
-  <li>How can you test if AutoFS is automatically mounting NFS shares as expected?</li>
-  <li>What happens when an AutoFS-mounted directory is not accessed for a specific time period?</li>
-  <li>What are the advantages of using AutoFS for mounting NFS shares compared to static mounting through <code>/etc/fstab</code>?</li>
 </ol>
 
 <!-- Section F -->
 <h2 class="text-2xl font-bold text-blue-700 mt-6 mb-2">F. TSR 1 - 2025 & TSR 2 - 2025 Stuff </h2>
-<ol class="list-decimal list-inside space-y-2" start="115">
+<ol class="list-decimal list-inside space-y-2" start="86">
   <li>What are the distinctions between hard links and symbolic links?</li>
   <li>What is SCP, and what is its primary purpose?</li>
   <li>Which port is commonly associated with SCP?</li>
